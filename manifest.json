@@ -1,0 +1,20 @@
+{
+    "name": "Integracja YouTube Downloader",
+    "version": "1.0",
+    "description": "Integracja z aplikacją YouTube Downloader dla przeglądarek opartych na Chromium",
+    "manifest_version": 3,
+    "author": "Bartosz Kąkol",
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "YouTube Downloader"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
